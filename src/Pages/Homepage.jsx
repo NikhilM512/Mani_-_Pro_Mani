@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 import "./Homepage.css"
+import Footer from '../Component/Footer';
 const Homepage = () => {
 
 
@@ -122,7 +123,7 @@ const Homepage = () => {
                </Box>
                <footer>
                     <Box display={"flex"} alignItems="center" justifyContent="space-around">
-
+                         <Footer></Footer>
                     </Box>
 
                </footer>

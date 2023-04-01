@@ -1,0 +1,98 @@
+.homepagebox{
+     font-family: "poppins",sans-serif;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: rgb(241, 51, 51);
+}
+
+
+
+header{
+     width: 100vw;
+     height:95vh;
+     background: linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url(https://www.lapoindia.com/images/slider/Slider-02.jpg);
+     background-size: cover;
+     
+     background-position: center;
+     background-attachment:fixed;
+     clip-path: polygon(0 0,100% 0,100% 80%,50% 100%,0 80%);
+     position: relative;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+header .text-container{
+     display: block;
+     width: 100%;
+     position: absolute;
+     transform: translate(-50%,50%);
+     top: 50%;
+     left: 50%;
+     text-align: center;
+     color:white;
+     text-shadow: 0 0 10px rgba(0, 0, 0,0.5)
+}
+.photo-gallary:hover{
+ transform: scale(1.1);
+ transition-duration: 0.5s;
+}
+.photo-gallary::after{
+     transform: scale(1);
+     transition-duration: 0.5s;
+}
+.backphoto{
+     width: 100vw;
+     height:500px;
+     background: linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(https://www.lapoindia.com/images/slider/Slider-02.jpg);
+     background-size: cover;
+     background-position: center;
+     background-attachment:fixed;
+     position: relative;
+     z-index: 1;
+}
+.text-container{
+     display: block;
+     width: 50%;
+     top: 50%;
+     left: 0%;
+     text-align: center;
+     color:white;
+     text-shadow: 0 0 10px rgba(0, 0, 0,0.5)
+}
+.sofa1box{
+ background-image: url(../../public/sofa.png);
+ background-size: cover;
+ background-position: center;
+ background-attachment:fixed;
+}
+.sofa2box{
+     background-image: url(../../public/sofa2.png);
+     background-size: cover;
+     background-position: center;
+     background-attachment:fixed;
+    }
+    h1{
+     font-family: "poppins",sans-serif;
+    }
+    p{
+     font-family: "poppins",sans-serif;
+    }
+
+
+    /****************Footer******************/
+    footer{
+     width: 100vw;
+     height:70vh;
+     background: linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url(https://www.lapoindia.com/images/slider/Slider-02.jpg);
+     background-size: cover;
+     
+     background-position: center;
+     background-attachment:fixed;
+     clip-path:polygon(50% 0%, 100% 30%, 100% 100%, 0 100%, 0% 30%);
+      /* clip-path: polygon(0 0,100% 0,100% 80%,50% 100%,0 80%); */
+     position: relative;
+     
+    }
+    /************catgeory box***********************/
+    .category-box{
+     clip-path: circle(50% at 50% 50%);
+     background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }

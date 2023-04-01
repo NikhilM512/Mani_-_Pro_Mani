@@ -1,0 +1,6 @@
+html, body { height: auto; }
+.panel {
+  height: 100vh;
+/*   position: sticky; */ /* causes problems! */
+  top: 0;
+}

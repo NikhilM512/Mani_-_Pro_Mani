@@ -82,7 +82,8 @@ const Footer = () => {
                     <Image 
                       src={logo} 
                       w="120px" 
-                      h="120px" 
+                      h="120px"
+                      borderRadius={'50%'} 
                       color="red" >
                     </Image>
                     <Text 

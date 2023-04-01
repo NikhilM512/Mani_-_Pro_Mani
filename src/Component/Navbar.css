@@ -8,29 +8,40 @@ border:1px solid white;
 color:white;
 top: 20px;
 border-radius: 20px; */
-height:200px;
-background-color: white;
+width: 95vw;
+margin: auto;
+height:100px;
+background-color: rgb(12, 12, 12);
 position: fixed;
-z-index: 1;
+z-index: 100;
 top: 20px;
-
-
-
+left: 2.5vw;
+box-sizing: border-box;
+border-radius: 33px;
 }
 .logobox{
      /* width: 50%; */
      height:0px;
-     border-bottom: 80px solid rgb(241, 51, 51);
+     border-bottom: 82px solid rgb(241, 51, 51);
      border-right: 80px solid transparent;
      display: flex;
      justify-content: start;
-     margin-left: 2%;
+     padding-left: 5%;
      /* align-items: center; */
 }
 
 .logobox img{
    position: absolute;
    width: 100px;
-   height: 100px;
-   margin-top: -10px;
+   height:88px;
+   margin-top: -3px;
+   border-radius: 50%;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+     
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+
 }

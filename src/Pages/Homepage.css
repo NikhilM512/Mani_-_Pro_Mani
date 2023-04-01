@@ -1,23 +1,24 @@
 .homepagebox{
+     box-sizing: border-box;
      font-family: "poppins",sans-serif;
      padding: 0;
      box-sizing: border-box;
      background-color: rgb(241, 51, 51);
+     max-width: 100%;
 }
 
-
-
 header{
-     width: 100vw;
+     width: 100%;
      height:95vh;
      background: linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url(https://www.lapoindia.com/images/slider/Slider-02.jpg);
      background-size: cover;
-     
+     /* border: 10px solid salmon; */
      background-position: center;
      background-attachment:fixed;
      clip-path: polygon(0 0,100% 0,100% 80%,50% 100%,0 80%);
      position: relative;
-     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 header .text-container{
      display: block;
      width: 100%;
@@ -27,8 +28,30 @@ header .text-container{
      left: 50%;
      text-align: center;
      color:white;
-     text-shadow: 0 0 10px rgba(0, 0, 0,0.5)
+     text-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+     margin-top: -10%;
 }
+
+.text-container h1{
+     font-size: 77px;
+     color: red;
+     /* font-style:oblique; */
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
+     
+}
+
+.text-container span{
+     font-size: xx-large;
+     font-style: italic;
+     color: rgb(213, 28, 28);
+}
+
+.photo-gallary{
+     width: 100%;
+     height: 100%;
+}
+
 .photo-gallary:hover{
  transform: scale(1.1);
  transition-duration: 0.5s;
@@ -38,7 +61,7 @@ header .text-container{
      transition-duration: 0.5s;
 }
 .backphoto{
-     width: 100vw;
+     width: 100%;
      height:500px;
      background: linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(https://www.lapoindia.com/images/slider/Slider-02.jpg);
      background-size: cover;
@@ -57,16 +80,19 @@ header .text-container{
      text-shadow: 0 0 10px rgba(0, 0, 0,0.5)
 }
 .sofa1box{
- background-image: url(../../public/sofa.png);
+ background-image: url(../../public/Banner1.jpg);
  background-size: cover;
  background-position: center;
  background-attachment:fixed;
+
 }
 .sofa2box{
-     background-image: url(../../public/sofa2.png);
+     background-image: url(../../public/Banner3.avif);
      background-size: cover;
      background-position: center;
      background-attachment:fixed;
+     display: flex;
+     justify-content: flex-end;
     }
     h1{
      font-family: "poppins",sans-serif;
@@ -75,14 +101,40 @@ header .text-container{
      font-family: "poppins",sans-serif;
     }
 
+    .sofa1box h1{
+     text-align: justify;
+     font-size: 50px;
+     color: red;
+     font-weight: bold;
+     }
+
+     .sofa1box p{
+          text-align: justify;
+          color: red;
+          font-weight:bold;
+          font-style:italic
+     }
+
+     .sofa2box h1{
+          text-align: justify;
+          font-size: 50px;
+          color: red;
+          font-weight: bold;
+     }
+
+     .sofa2box p{
+          text-align: justify;
+          color: red;
+          font-weight:bold;
+          font-style:italic
+     }
 
     /****************Footer******************/
     footer{
-     width: 100vw;
+     width: 100%;
      /* height:70vh; */
-     background: linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url(https://www.lapoindia.com/images/slider/Slider-02.jpg);
+     background: linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url('../Images/handHandle.avif');
      background-size: cover;
-     
      background-position: center;
      background-attachment:fixed;
      clip-path:polygon(50% 0%, 100% 30%, 100% 100%, 0 100%, 0% 30%);
@@ -92,7 +144,104 @@ header .text-container{
     }
     /************catgeory box***********************/
     .category-box{
-     clip-path: circle(50% at 50% 50%);
-     background-color: white;
+     /* clip-path: circle(50% at 50% 50%); */
+     background-color: black;
      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
+
+    @media all and (min-width: 768px) and (max-width: 1024px) {
+     header {
+          height:77vh;
+      }
+
+      header .text-container{
+          margin-top: -22%;
+      }
+      .text-container h1{
+          font-size: 77px;
+      }
+      .text-container span{
+          font-size: 33px;
+      }
+
+      .sofa1box h1{
+          text-align: justify;
+          font-size: 40px;
+          color: red;
+          font-weight: bold;
+          }
+     
+          .sofa1box p{
+               text-align: justify;
+               color: red;
+               font-weight:bold;
+               font-style:italic
+          }
+     
+          .sofa2box h1{
+               text-align: justify;
+               font-size: 40px;
+               color: red;
+               font-weight: bold;
+          }
+     
+          .sofa2box p{
+               text-align: justify;
+               color: red;
+               font-weight:bold;
+               font-style:italic
+          }
+    }
+
+    @media all and (min-width: 320px) and (max-width: 767px) {
+     header{
+          height:77vh;
+     }
+
+     header .text-container{
+          margin: auto;
+          margin-top: -44%;
+          width: 90%;
+     }
+
+     .text-container h1{
+          font-size: 50px;
+      }
+
+      .text-container span{
+          font-size: 22px;
+      }
+
+      .sofa1box h1{
+          text-align: justify;
+          font-size: 30px;
+          color: "red";
+          font-weight: "bold";
+      }
+
+      .sofa2box h1{
+          text-align: justify;
+          font-size: 30px;
+          color: "red";
+          font-weight: "bold";
+      }
+
+      .sofa1box p{
+          text-align: justify;
+          font-size: 15px;
+          color: red;
+          font-weight:bold;
+          font-style:italic
+     }
+
+     .sofa2box p{
+          text-align: justify;
+          color: red;
+          font-size: 15px;
+          font-weight:bold;
+          font-style:italic
+     }
+    }
+
+
+    

@@ -102,24 +102,28 @@ header .text-container{
     }
 
     .sofa1box h1{
-     text-align: justify;
+     text-align: start;
+     /* border: 1px solid red; */
      font-size: 50px;
      color: red;
      font-weight: bold;
      }
 
      .sofa1box p{
-          text-align: justify;
+          text-align: start;
+          /* border: 1px solid red; */
           color: red;
           font-weight:bold;
           font-style:italic
      }
 
      .sofa2box h1{
-          text-align: justify;
+          text-align: start;
+          /* border: 1px solid red; */
           font-size: 50px;
           color: red;
           font-weight: bold;
+          letter-spacing: 2%;
      }
 
      .sofa2box p{
@@ -200,7 +204,7 @@ header .text-container{
 
      header .text-container{
           margin: auto;
-          margin-top: -44%;
+          margin-top: -40%;
           width: 90%;
      }
 

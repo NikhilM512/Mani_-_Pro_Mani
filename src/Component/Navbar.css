@@ -38,6 +38,31 @@ border-radius: 33px;
    border-radius: 50%;
 }
 
+.menu-div>h1{
+     color:rgb(241, 51, 51);
+     font-weight:bold;
+     padding: 1%;
+     border-radius: 7px;
+}
+
+.menu-div>h1:hover{
+     background-color: red;
+     color: black;
+}
+
+.drawer-menu-div>h1{
+     margin:2%;
+     color:rgb(241, 51, 51);
+     font-weight:bold;
+     padding: 1%;
+     border-radius: 7px;
+}
+
+.drawer-menu-div>h1:hover{
+     background-color: red;
+     color: black;
+}
+
 @media all and (min-width: 768px) and (max-width: 1024px) {
      
 }

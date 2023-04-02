@@ -26,13 +26,13 @@ const Homepage = () => {
                </header>
                <h1 style={{ textAlign: "center", fontSize: "44px", fontWeight: "bold",margin:"2% 0%" }}>Photo Gallary</h1>
                <Box  w="95%" m="auto" bgColor={"rgb(241, 51, 51)"} mb="30px" display={"flex"} flexDirection={['column','column','column','row']} alignItems='center' justifyContent={'space-around'}>
-                    <Box m="2%"  h="280px" w="350px"  overflow={"hidden"} boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px">
+                    <Box m="2%"  h="350px" w="350px"  overflow={"hidden"} boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px">
                          <img className='photo-gallary' src={handle1Img} alt="" />
                     </Box>
-                    <Box m="2%"  h="280px" w="350px" overflow={"hidden"} boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px">
+                    <Box m="2%"  h="350px" w="350px" overflow={"hidden"} boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px">
                          <img className='photo-gallary' src={handle3Img} alt="" />
                     </Box>
-                    <Box m="2%"  h="280px" w="350px" overflow={"hidden"} boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px">
+                    <Box m="2%"  h="350px" w="350px" overflow={"hidden"} boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px">
                          <img className='photo-gallary' src={handle5Img} alt="" />
                     </Box>
 

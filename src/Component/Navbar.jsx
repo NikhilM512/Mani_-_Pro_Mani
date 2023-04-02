@@ -26,11 +26,11 @@ const Navbar = () => {
      <Box className="logobox" w="50%" >
           <img src={logo} alt="maniLogo" />
      </Box>
-     <Box w="50%" display={["none","none","none","flex"]} justifyContent="space-around" alignItems={"center"}>
-          <h1 style={{color:"rgb(241, 51, 51)",fontWeight:"bold"}}>Home</h1>
-          <h1 style={{color:"rgb(241, 51, 51)",fontWeight:"bold"}} >Product</h1>
-          <h1 style={{color:"rgb(241, 51, 51)",fontWeight:"bold"}} >About</h1>
-          <h1 style={{color:"rgb(241, 51, 51)",fontWeight:"bold"}}>Contact</h1>
+     <Box className='menu-div' w="50%" display={["none","none","none","flex"]} justifyContent="space-around" alignItems={"center"}>
+          <h1 >Home</h1>
+          <h1  >Product</h1>
+          <h1  >About</h1>
+          <h1 >Contact</h1>
      </Box>
      <Icon as={HamburgerIcon} w={12} h={10} mr="5%" onClick={onOpen} border="3px solid red" borderRadius="5px" p="1%" color='red.500' display={["flex","flex","flex","none"]}/>
      <Drawer
@@ -50,12 +50,13 @@ const Navbar = () => {
            flexDirection='column' 
           justifyContent={'space-around'} 
           alignItems='center' 
+          className='drawer-menu-div'
           color={'blackAlpha.700'} 
-          bg='black' fontSize={25} >
-          <h1 style={{margin:"2%",color:"rgb(241, 51, 51)",fontWeight:"bold"}}>Home</h1>
-          <h1 style={{margin:"2%",color:"rgb(241, 51, 51)",fontWeight:"bold"}} >Product</h1>
-          <h1 style={{margin:"2%",color:"rgb(241, 51, 51)",fontWeight:"bold"}} >About</h1>
-          <h1 style={{margin:"2%",color:"rgb(241, 51, 51)",fontWeight:"bold"}}>Contact</h1>
+          bg='black' fontSize={22} >
+          <h1 >Home</h1>
+          <h1  >Product</h1>
+          <h1  >About</h1>
+          <h1 >Contact</h1>
           </DrawerBody>
 
           <DrawerFooter display={'flex'} justifyContent='center' bg='black'>

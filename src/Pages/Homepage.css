@@ -127,7 +127,7 @@ header .text-container{
      }
 
      .sofa2box p{
-          text-align: justify;
+          text-align: start;
           color: red;
           font-weight:bold;
           font-style:italic
@@ -169,28 +169,28 @@ header .text-container{
       }
 
       .sofa1box h1{
-          text-align: justify;
+          text-align: start;
           font-size: 40px;
           color: red;
           font-weight: bold;
           }
      
           .sofa1box p{
-               text-align: justify;
+               text-align: start;
                color: red;
                font-weight:bold;
                font-style:italic
           }
      
           .sofa2box h1{
-               text-align: justify;
+               text-align: start;
                font-size: 40px;
                color: red;
                font-weight: bold;
           }
      
           .sofa2box p{
-               text-align: justify;
+               text-align: start;
                color: red;
                font-weight:bold;
                font-style:italic
@@ -217,21 +217,21 @@ header .text-container{
       }
 
       .sofa1box h1{
-          text-align: justify;
+          text-align: start;
           font-size: 30px;
           color: "red";
           font-weight: "bold";
       }
 
       .sofa2box h1{
-          text-align: justify;
+          text-align: start;
           font-size: 30px;
           color: "red";
           font-weight: "bold";
       }
 
       .sofa1box p{
-          text-align: justify;
+          text-align: start;
           font-size: 15px;
           color: red;
           font-weight:bold;
@@ -239,7 +239,7 @@ header .text-container{
      }
 
      .sofa2box p{
-          text-align: justify;
+          text-align: start;
           color: red;
           font-size: 15px;
           font-weight:bold;

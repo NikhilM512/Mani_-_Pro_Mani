@@ -23,7 +23,7 @@ const Navbar = () => {
      p="10px 0px" 
     display={"flex"} justifyContent="space-between" 
     alignItems={"center"} className="navbar-box">
-     <Box className="logobox" w="50%" >
+     <Box className="logobox" ml={{base:'-1px',sm:'-1px'}}  w={["60%","55%","50%","50%"]} >
           <img src={logo} alt="maniLogo" />
      </Box>
      <Box className='menu-div' w="50%" display={["none","none","none","flex"]} justifyContent="space-around" alignItems={"center"}>
@@ -42,7 +42,7 @@ const Navbar = () => {
         <DrawerOverlay />
         <DrawerContent bg='black' >
           <DrawerCloseButton color={'red'} h="50px" fontSize={25}/>
-          <DrawerHeader bg='black' display={'flex'} justifyContent='center' mt="10%">
+          <DrawerHeader bg='black' display={'flex'} justifyContent='center' mt={["20%","15%","10%","10%"]}>
             <Image borderRadius={'50%'} src={logo} w="125px" h="111px"></Image>
           </DrawerHeader>
 

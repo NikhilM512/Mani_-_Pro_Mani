@@ -22,11 +22,12 @@ border-radius: 33px;
 .logobox{
      /* width: 50%; */
      height:0px;
-     border-bottom: 82px solid rgb(241, 51, 51);
+     border-bottom: 83px solid rgb(241, 51, 51);
      border-right: 80px solid transparent;
      display: flex;
      justify-content: start;
      padding-left: 5%;
+     margin-left: 0px;
      /* align-items: center; */
 }
 

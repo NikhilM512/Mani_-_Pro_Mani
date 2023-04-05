@@ -121,11 +121,6 @@ const Homepage = () => {
                               <img style={{ width: "100%", height: "100%" }} src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61fgoQMJDIS._SY355_.jpg" alt="handle2Img" />
                          </Box>
                     </Box>
-                
-                  
-                 
-         
-
 
                </Box>
                <footer>

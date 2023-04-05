@@ -34,9 +34,9 @@ header .text-container{
 
 .text-container h1{
      font-size: 77px;
-     color: red;
+     color: white;
      /* font-style:oblique; */
-     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family:"poppins",sans-serif;
      font-weight: bold;
      
 }
@@ -44,7 +44,8 @@ header .text-container{
 .text-container span{
      font-size: xx-large;
      font-style: italic;
-     color: rgb(213, 28, 28);
+     color: whitesmoke;
+     font-family: "poppins",sans-serif;
 }
 
 .photo-gallary{

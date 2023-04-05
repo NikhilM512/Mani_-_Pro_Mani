@@ -5,6 +5,7 @@ import { AiOutlineFacebook } from 'react-icons/ai'
 import { AiFillTwitterSquare } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import {Icon} from '@chakra-ui/react';
+import bgImg from "../Images/handHandle.avif"
 
 const Footer = () => {
   return (
@@ -14,6 +15,11 @@ const Footer = () => {
         p="3%" 
         mt={['22%','15%','10%','7%']}
         pt={["17%","15%","10%","7%"]}
+        backgroundImage={bgImg}
+        backgroundSize="cover"
+        backgroundRepeat="no-repeat"
+        backgroundPosition={'center'}
+        background="linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(`${bgImg}`);"
         // background={"linear-gradient(180deg, #CCC 0%, gray 27.6%, black 100%)"}
         >
             <SimpleGrid 

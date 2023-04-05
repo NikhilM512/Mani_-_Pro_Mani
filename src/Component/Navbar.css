@@ -1,4 +1,4 @@
-.navbar-box{
+.navbar-box {
      /* background: rgba(255,255,255,0.2);
 backdrop-filter: blur(5px);
 position: fixed;
@@ -8,21 +8,22 @@ border:1px solid white;
 color:white;
 top: 20px;
 border-radius: 20px; */
-width: 95vw;
-margin: auto;
-height:100px;
-background-color: rgb(12, 12, 12);
-position: fixed;
-z-index: 100;
-top: 20px;
-left: 2.5vw;
-box-sizing: border-box;
-border-radius: 33px;
+     width: 95vw;
+     margin: auto;
+     height: 100px;
+     background-color: rgb(12, 12, 12);
+     position: fixed;
+     z-index: 100;
+     top: 20px;
+     left: 2.5vw;
+     box-sizing: border-box;
+     border-radius: 33px;
 }
-.logobox{
+
+.logobox {
      /* width: 50%; */
      height:0px;
-     border-bottom: 83px solid rgb(241, 51, 51);
+     border-bottom: 82px solid rgb(241, 51, 51);
      border-right: 80px solid transparent;
      display: flex;
      justify-content: start;
@@ -31,43 +32,41 @@ border-radius: 33px;
      /* align-items: center; */
 }
 
-.logobox img{
-   position: absolute;
-   width: 100px;
-   height:88px;
-   margin-top: -3px;
-   border-radius: 50%;
+.logobox img {
+     position: absolute;
+     width: 100px;
+     height: 88px;
+     margin-top: -3px;
+     border-radius: 50%;
 }
 
-.menu-div>h1{
-     color:rgb(241, 51, 51);
-     font-weight:bold;
-     padding: 1%;
+.navlinks {
+     width: fit-content;
+     color: rgb(241, 51, 51);
+     font-weight: bold;
+    padding: 7px;
      border-radius: 7px;
+
 }
 
-.menu-div>h1:hover{
+.navlinks:hover {
      background-color: red;
      color: black;
 }
 
-.drawer-menu-div>h1{
-     margin:2%;
-     color:rgb(241, 51, 51);
-     font-weight:bold;
+.drawer-menu-div>h1 {
+     margin: 2%;
+     color: rgb(241, 51, 51);
+     font-weight: bold;
      padding: 1%;
      border-radius: 7px;
 }
 
-.drawer-menu-div>h1:hover{
+.drawer-menu-div>h1:hover {
      background-color: red;
      color: black;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
-     
-}
+@media all and (min-width: 768px) and (max-width: 1024px) {}
 
-@media all and (min-width: 320px) and (max-width: 767px) {
-
-}
+@media all and (min-width: 320px) and (max-width: 767px) {}

@@ -130,7 +130,9 @@ const Homepage = () => {
                </Box>
                <footer>
                     <Box display={"flex"} alignItems="center" justifyContent="space-around">
-                         <Footer></Footer>
+                         <Footer>
+                              
+                         </Footer>
                     </Box>
 
                </footer>

@@ -40,7 +40,7 @@ import Footer from '../Component/Footer';
 const Product = () => {
 
     const footerStyle={
-        width: "100%",
+     width: "100%",
      background: "linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url('../Images/handHandle.avif')",
      backgroundSize: "cover",
      backgroundPosition: "center",
@@ -61,7 +61,7 @@ let Images=[Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9,Img10,Img11,Img12,Img13
 
   return (
     <Box bg="black">
-    <Box background={'#1A1A1D'} position='relative' pt="7%">
+    <Box background={'#1A1A1D'} position='relative' pt="7%" mb="2%">
     {/* <div ></div> */}
         <Box position={'relative'} mt="5%" 
         backgroundImage="url('https://europalocks.com/assets/images/showcase/blogs/Europa_Image-2-1.webp')" 
@@ -79,7 +79,7 @@ let Images=[Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9,Img10,Img11,Img12,Img13
         </SimpleGrid>
         {/* <Icon as={FcDownload}  data-aos="fade-right" position="sticky" left={"40%"} bg="#FEFFFF" h={66} w={66} p="7px" borderRadius="50%"></Icon> */}
     </Box>
-    <footer style={footerStyle}>
+    <footer>
     <Box display={"flex"} alignItems="center" justifyContent="space-around">
     <Footer></Footer>
     </Box>
